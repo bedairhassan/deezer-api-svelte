@@ -34,11 +34,12 @@
 	{:then articles}
 
 
-		<table>
-			<tr></tr>
-		</table>
-
 		<table class="table">
+			<tr>
+				<th scope="col">Cover</th>
+				<th scope="col">Album Title</th>
+				<th scope="col">Title</th>
+			  </tr>
 			{#each articles as article}
 				<tr>
 					<td>
