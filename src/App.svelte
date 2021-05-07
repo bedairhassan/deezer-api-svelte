@@ -32,6 +32,12 @@
 	{#await promise}
 		<p>...waiting</p>
 	{:then articles}
+
+
+		<table>
+			<tr></tr>
+		</table>
+
 		<table class="table">
 			{#each articles as article}
 				<tr>
